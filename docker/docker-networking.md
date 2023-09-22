@@ -38,6 +38,8 @@ networks:
 
 ### Utiliser un réseau préexistant
 
+#### Réseau générique - driver=bridge
+
 Si on souhaite que nos conteneurs rejoignent un réseau préexistant, utilisez l'option externe :
 
 Prérequis :
@@ -64,4 +66,4 @@ networks:
     external: true
 ```
 
-Au lieu d'essayer de créer un réseau appelé [projectname]_default, docker-compose recherche un réseau appelé my-pre-existing-network et y connecte les conteneurs de notre application.
+Au lieu d'essayer de créer un réseau appelé [projectname]_default, docker-compose recherche un réseau appelé **frontend** et y connecte les conteneurs de notre application.
