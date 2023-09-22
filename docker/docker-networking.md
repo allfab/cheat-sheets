@@ -44,14 +44,14 @@ Prérequis :
 
 Il faut au préalable créer le réseau via docker-cli (ligne de commande) :
 ```
-docker network create --driver=bridge --subnet=172.19.0.0/16 --gateway=172.19.0.1 developpment
+docker network create --driver=bridge --subnet=172.19.0.0/16 --gateway=172.19.0.1 frontend
 ```
 
 Dans le docker-compose.yaml :
 
 ```
 networks: 
-  developpment: 
+  frontend: 
     external: true
 ```
 
