@@ -55,7 +55,7 @@ networks:
     external: true
 ```
 
-ou avec un nom :
+ou :
 
 ```
 networks:
