@@ -1,9 +1,4 @@
-# Docker
-Page d'accueil du projet : [Home - Docker](https://www.docker.com/)
-Documentation : [Docker Documentation | Docker Documentation](https://docs.docker.com/)
-
----
-## Docker CLI
+# Docker CLI
 
 **Run Containers**
 
