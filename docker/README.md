@@ -6,9 +6,8 @@ Documentation : [Docker Documentation | Docker Documentation](https://docs.docke
 ---
 ## DOCKER : docker-engine
 ### LES LIGNES DE COMMANDE
-- DOCKER CLI : les lignes de commande [ICI](https://github.com/allfab/cheat-sheets/blob/main/docker/docker-networking.md)
-
+- DOCKER CLI : Le réseau [ICI](https://github.com/allfab/cheat-sheets/blob/main/docker/docker-cli.md)
 ---
 ## DOCKER : docker-compose
 ### LE RÉSEAU
-- DOCKER NETWORK : Le réseau [ICI](https://github.com/allfab/cheat-sheets/blob/main/docker/docker-cli.md)
+- DOCKER NETWORK : les lignes de commande [ICI](https://github.com/allfab/cheat-sheets/blob/main/docker/docker-networking.md)
