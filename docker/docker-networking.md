@@ -40,11 +40,12 @@ networks:
 
 Si on souhaite que nos conteneurs rejoignent un réseau préexistant, utilisez l'option externe :
 
-!!! Prérequis
-    Il faut au préalable créer le réseau via docker-cli (ligne de commande) :
-    ```
-    docker network create --driver=bridge --subnet=172.19.0.0/16 --gateway=172.19.0.1 developpment
-    ```
+Prérequis :
+
+Il faut au préalable créer le réseau via docker-cli (ligne de commande) :
+```
+docker network create --driver=bridge --subnet=172.19.0.0/16 --gateway=172.19.0.1 developpment
+```
 
 Dans le docker-compose.yaml :
 
