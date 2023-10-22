@@ -66,4 +66,14 @@ networks:
     external: true
 ```
 
+ou encore avec plusieurs réseaux attachés :
+
+```
+networks: 
+  frontend: 
+    external: true
+  webapps: 
+    external: true
+```
+
 Au lieu d'essayer de créer un réseau appelé [projectname]_default, docker-compose recherche un réseau appelé **frontend** et y connecte les conteneurs de notre application.
